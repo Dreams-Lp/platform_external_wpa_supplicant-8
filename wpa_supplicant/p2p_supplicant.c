@@ -3890,7 +3890,6 @@ int wpas_p2p_init(struct wpa_global *global, struct wpa_supplicant *wpa_s)
 	wpa_printf(MSG_ERROR, "wpas_p2p_init() SKIP!! p2p capability check");
 	}
 
-
 	if (global->p2p)
 		return 0;
 
